@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            text-align: center;
+        }
+
+        h1 {
+           font-family: 'Montserrat', sans-serif;
+           margin-top: 85px;
+           color: white;
+        }
+        
+
+        .box{
+            background: linear-gradient(rgb(14, 14, 91),rgb(135, 13, 13));
+            width: 220px;
+            height: 220px;
+            border-radius: 100%;
+            margin-top: 175px;
+            position: relative;
+            display: inline-block;
+
+            animation-name: animate;
+            animation-duration: 8s;
+            animation-delay: 2.5s;
+            animation-play-state: running;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animate {
+        
+            0% {
+                background: linear-gradient(rgb(14, 14, 91),rgb(135, 13, 13));
+                width: 220px;
+                height: 220px;
+                border-radius: 100%;
+                margin: 175 0 0 0;
+                transform: rotate(0deg);
+            }
+
+            20% {
+                background: linear-gradient(rgb(116, 116, 185),rgb(185, 81, 81));
+                width: 120px;
+                height: 320px;
+                border-radius: 90%;
+                margin: 175px 150px 0 0;
+                font-size: 0.5rem;
+                transform: rotate(360deg);
+            }
+
+            40% {
+                background: linear-gradient(rgb(5, 189, 97),rgb(180, 104, 104));
+                width: 320px;
+                height: 150px;
+                border-radius: 100%;
+                margin: 175px 50px 0 12px;
+                transform: rotate(0deg);
+            }
+
+            60% {
+                background: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+                width: 520px;
+                height: 520px;
+                border-radius: 100%;
+                margin: 175px 0 0 0;
+                transform: rotate(360deg);
+            }
+
+            80% {
+                background: linear-gradient(rgb(206, 101, 45),rgb(82, 224, 237));
+                width: 510px;
+                height: 430px;
+                border-radius: 100%;
+                margin: 175px 0 0 180px;
+                transform: rotate(0deg);
+            }
+
+            100% {
+                background: linear-gradient(rgb(54, 54, 56),rgb(120, 0, 0));
+                width: 1020px;
+                height: 1020px;
+                border-radius: 100%;
+                margin: 15px 0 0 24px;
+                transform: rotate(360deg);
+                font-size: 1.5rem;
+            }
+
+        }
+
+       
+
+    </style>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<divc class="box">
+    <h1>Subscribe!</h1>
+</div>
+
+</body>
+</html>
